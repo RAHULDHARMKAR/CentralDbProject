@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void decrementValue() {
-        String url = "http://192.168.1.7:81/update_value.php";
+        String url = "http://localhost/update_value.php";
 
         // Make an HTTP POST request using Volley
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
